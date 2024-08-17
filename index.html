@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Responsive Navigation Menu</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <!-- logo here -->
+            <div class="header__logo">LOGO</div>
+
+            <!-- button management here -->
+            <div class="header__btn">
+                <!-- look for <Boxicons for high quality icons!> -->
+                <i id="open" class='header__btn-open  bx bx-menu'></i>
+                <i id="close" class='header__btn-close bx bx-x hide'></i>
+            </div>
+
+            <!-- nav menu here -->
+            <div id="menu" class="header__menu slide">
+                <div class="item-1">
+                    <input type="radio" checked name="menu" id="a">
+                    <label for="a">Home</label>
+                </div>
+                <div class="item-2">
+                    <input type="radio" name="menu" id="b">
+                    <label for="b">About</label>
+                </div>
+                <div class="item-3">
+                    <input type="radio" name="menu" id="c">
+                    <label for="c">Services</label>
+                </div>
+                <div class="item-4">
+                    <input type="radio" name="menu" id="d">
+                    <label for="d">Contacts</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="main__title">Welcome</div>
+            <div class="main__text">Lorem ipsum dolor sit amet.</div>
+        </div>
+
+        <div class="footer">
+            <div class="footer__copyright">&copy; 2024.</div>
+            <div class="footer__text">All rights reserved!</div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
